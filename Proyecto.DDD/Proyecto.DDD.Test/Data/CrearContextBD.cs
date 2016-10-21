@@ -19,7 +19,6 @@ namespace Proyecto.DDD.Test.Data
             {
                 Nombre = "Cesar",
                 Apellido = "Sarchioni",
-                Fecha = new DateTime(2016, 11, 10),
                 Activo = true
             };
 

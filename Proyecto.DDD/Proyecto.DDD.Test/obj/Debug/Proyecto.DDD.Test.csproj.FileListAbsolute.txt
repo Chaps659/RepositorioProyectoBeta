@@ -42,3 +42,12 @@ E:\GitHub\RepositorioProyectoBeta\Proyecto.DDD\Proyecto.DDD.Test\bin\Debug\Syste
 E:\GitHub\RepositorioProyectoBeta\Proyecto.DDD\Proyecto.DDD.Test\obj\Debug\Proyecto.DDD.Test.csprojResolveAssemblyReference.cache
 E:\GitHub\RepositorioProyectoBeta\Proyecto.DDD\Proyecto.DDD.Test\obj\Debug\Proyecto.DDD.Test.dll
 E:\GitHub\RepositorioProyectoBeta\Proyecto.DDD\Proyecto.DDD.Test\obj\Debug\Proyecto.DDD.Test.pdb
+E:\GitHub\RepositorioProyectoBeta\Proyecto.DDD\Proyecto.DDD.Test\bin\Debug\AutoMapper.dll
+E:\GitHub\RepositorioProyectoBeta\Proyecto.DDD\Proyecto.DDD.Test\bin\Debug\AutoMapper.xml
+E:\GitHub\RepositorioProyectoBeta\Proyecto.DDD\Proyecto.DDD.Test\bin\Debug\es\System.Web.Optimization.resources.dll
+E:\GitHub\RepositorioProyectoBeta\Proyecto.DDD\Proyecto.DDD.Test\bin\Debug\es\System.Web.Mvc.resources.dll
+E:\GitHub\RepositorioProyectoBeta\Proyecto.DDD\Proyecto.DDD.Test\bin\Debug\es\System.Web.Razor.resources.dll
+E:\GitHub\RepositorioProyectoBeta\Proyecto.DDD\Proyecto.DDD.Test\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+E:\GitHub\RepositorioProyectoBeta\Proyecto.DDD\Proyecto.DDD.Test\bin\Debug\es\System.Web.WebPages.resources.dll
+E:\GitHub\RepositorioProyectoBeta\Proyecto.DDD\Proyecto.DDD.Test\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+E:\GitHub\RepositorioProyectoBeta\Proyecto.DDD\Proyecto.DDD.Test\bin\Debug\AutoMapper.Net4.dll

@@ -14,8 +14,6 @@ namespace Proyecto.DDD.Dominio.Entidades
 
         public string Apellido { get; set; }
 
-        public DateTime Fecha { get; set; }
-
         public bool Activo { get; set; }
 
     }

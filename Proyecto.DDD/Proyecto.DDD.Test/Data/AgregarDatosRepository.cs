@@ -21,7 +21,6 @@ namespace Proyecto.DDD.Test.Data
             {
                 Nombre = "Lucas",
                 Apellido = "Cana",
-                Fecha = new DateTime(2016, 06, 15),
                 Activo = true
             };
 

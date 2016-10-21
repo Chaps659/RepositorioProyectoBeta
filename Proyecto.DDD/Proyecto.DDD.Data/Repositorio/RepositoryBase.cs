@@ -20,11 +20,6 @@ namespace Proyecto.DDD.Data.Repositorio
             Db.SaveChanges();
         }
 
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
-
         public IEnumerable<TEntity> GetAll()
         {
             return Db.Set<TEntity>().ToList();
@@ -45,6 +40,10 @@ namespace Proyecto.DDD.Data.Repositorio
         {
             Db.Entry(obj).State = EntityState.Modified;
             Db.SaveChanges();
+        }
+        public void Dispose()
+        {
+            throw new NotImplementedException();
         }
     }
 }
