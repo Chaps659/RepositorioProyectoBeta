@@ -51,10 +51,12 @@
   <ItemGroup>
     <Compile Include="Contexto\ProyectoContext.cs" />
     <Compile Include="EntidadesConfig\AlumnoConfig.cs" />
+    <Compile Include="EntidadesConfig\ProfesorConfig.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio\RepositoryAlumno.cs" />
     <Compile Include="Repositorio\RepositoryBase.cs" />
+    <Compile Include="Repositorio\RepositoryProfesor.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

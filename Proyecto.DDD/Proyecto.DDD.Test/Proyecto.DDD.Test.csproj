@@ -62,7 +62,6 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Data\AgregarDatosRepository.cs" />
-    <Compile Include="Data\CrearContextBD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

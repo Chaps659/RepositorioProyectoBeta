@@ -41,8 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entidades\Alumno.cs" />
+    <Compile Include="Entidades\Persona.cs" />
+    <Compile Include="Entidades\Profesor.cs" />
     <Compile Include="Interfaces\IRepositoryAlumno.cs" />
     <Compile Include="Interfaces\IRepositoryBase.cs" />
+    <Compile Include="Interfaces\IRepositoryProfesor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

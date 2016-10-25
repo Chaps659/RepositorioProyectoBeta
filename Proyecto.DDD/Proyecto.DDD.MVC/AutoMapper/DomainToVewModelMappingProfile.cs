@@ -18,6 +18,7 @@ namespace Proyecto.DDD.MVC.AutoMapper
         protected override void Configure()
         {
             Mapper.CreateMap<VistaAlumno, Alumno>();
+            Mapper.CreateMap<VistaProfesor, Profesor>();
         }
     }
 }

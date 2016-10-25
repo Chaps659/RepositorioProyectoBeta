@@ -18,10 +18,17 @@ namespace Proyecto.DDD.Data.Contexto
 
         }
 
-        public DbSet<Alumno> Alumnos { get; set; }
+        public DbSet<Persona> Personas { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            modelBuilder.Configurations.Add(new AlumnoConfig());
+            modelBuilder.Configurations.Add(new ProfesorConfig());
+
+            modelBuilder.Entity<Profesor>().ToTable("Profesor");
+            modelBuilder.Entity<Alumno>().ToTable("Alumno");
+
+
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
             modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
@@ -36,13 +43,7 @@ namespace Proyecto.DDD.Data.Contexto
             modelBuilder.Properties<string>()
                 .Configure(p => p.HasMaxLength(100));
 
-            modelBuilder.Configurations.Add(new AlumnoConfig());
+
         }
-
-      /*  public override int SaveChanges()
-        {
-            return base.SaveChanges();
-        }*/
-
     }
 }

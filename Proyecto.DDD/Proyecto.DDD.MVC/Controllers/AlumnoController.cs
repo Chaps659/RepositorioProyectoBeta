@@ -12,14 +12,13 @@ namespace Proyecto.DDD.MVC.Controllers
 {
     public class AlumnoController : Controller
     {
-
-        private readonly RepositoryAlumno  _RepositoryAlumno = new RepositoryAlumno();
+        private readonly RepositoryAlumno _RepositoryAlumno = new RepositoryAlumno();
 
         public ActionResult Index()
         {
             var vistaAlumno = Mapper.Map<IEnumerable<Alumno>, IEnumerable<VistaAlumno>>(_RepositoryAlumno.GetAll());
             return View(vistaAlumno);
-        } 
+        }
 
         // GET: Alumno/Details/5
         public ActionResult Details(int id)
@@ -50,7 +49,8 @@ namespace Proyecto.DDD.MVC.Controllers
             return View(alumno);
         }
 
-        // GET: Alumno/Edit/5
+
+
         public ActionResult Edit(int id)
         {
             return View();

@@ -13,18 +13,38 @@ namespace Proyecto.DDD.Test.Data
     public class AgregarDatosRepository
     {
         [TestMethod]
-        public void CrearRepositoryBDSQL()
+        public void AgregarAlumnoRepositorio()
         {
-            var Repository = new RepositoryAlumno();
+           var RepositoryAlu = new RepositoryAlumno();
 
             var NuevoAlumno = new Alumno()
             {
-                Nombre = "Lucas",
-                Apellido = "Cana",
-                Activo = true
+                Nombre = "Carlos",
+                Apellido = "Tevez",
+                Descripcion = "Vamos boca carajo"
+              
             };
 
-            Repository.Add(NuevoAlumno);
+            RepositoryAlu.Add(NuevoAlumno);
+      
+        }
+
+        [TestMethod]
+        public void AgregarProfesorRepositorio()
+        {
+            var RepositoryPro = new RepositoryProfesor();
+
+            var NuevoProfesor = new Profesor()
+            {
+                Nombre = "Carlos",
+                Apellido = "Tevez",
+                Catedra = "Futbol",
+                Mail = "Carlos@teves"
+
+            };
+
+        RepositoryPro.Add(NuevoProfesor);
+
         }
     }
 }

@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace Proyecto.DDD.Dominio.Entidades
 {
-    public class Alumno
+    public class Alumno : Persona
     {
-        public int AlumnoID { get; set; }
+        public string Descripcion { get; set; }
 
-        public string Nombre { get; set; }
-
-        public string Apellido { get; set; }
-
-        public bool Activo { get; set; }
+        public string NotasEspeciales { get; set; }
 
     }
 }

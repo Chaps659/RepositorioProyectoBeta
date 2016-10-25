@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyecto.DDD.Dominio.Entidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -6,10 +7,10 @@ using System.Web;
 
 namespace Proyecto.DDD.MVC.ViewModels
 {
-    public class VistaAlumno
+    public class VistaAlumno 
     {
         [Key]
-        public int AlumnoID { get; set; }
+        public int PersonaID { get; set; }
 
         [Required(ErrorMessage = "Rellenar")]
         [MaxLength(150, ErrorMessage = "Maximo de caracteres")]
@@ -21,7 +22,15 @@ namespace Proyecto.DDD.MVC.ViewModels
         [MinLength(2, ErrorMessage = "Minimo de caracteres")]
         public string Apellido { get; set; }
 
-        public bool Activo { get; set; }
+        [Required(ErrorMessage = "Rellenar")]
+        [MaxLength(150, ErrorMessage = "Maximo de caracteres")]
+        [MinLength(2, ErrorMessage = "Minimo de caracteres")]
+        public string Descripcion { get; set; }
+
+        [Required(ErrorMessage = "Rellenar")]
+        [MaxLength(150, ErrorMessage = "Maximo de caracteres")]
+        [MinLength(2, ErrorMessage = "Minimo de caracteres")]
+        public string NotasEspeciales { get; set; }
 
     }
 }
